@@ -54,16 +54,96 @@
         <div class="main-content">
             <div class="sticky-nav">
                 <div class="sticky-nav-icons">
-                    <img src="./assets/backward_icon.png" alt="back">
-                    <img src="./assets/forward_icon.png" alt="next">
+                    <button><img src="./assets/backward_icon.png" alt="back"></button>
+                    <button class="hide"><img src="./assets/forward_icon.png" alt="next"></button>
                 </div>
                 <div class="sticky-nav-options">
-                    <button class="premium-btn create-button">Explore premium</button>
+                    <button class="premium-btn create-button hide">Explore premium</button>
                     <button class="install-btn create-button"><i class="fa-regular fa-circle-down"></i>Install App</button>
-                    <i class="fa-regular fa-user"></i>
+                    <button class="profile"><i class="fa-regular fa-user"></i></button>
                 </div>
             </div>
-            <div class="cards"></div>
+            <div class="cards">
+                <div class="heading"><h2>Recently played</h2></div>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/top50.jpeg" alt="top 50">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-desc">Your daily update of the most played tracks...</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h2>Trending now near you</h2>
+                    <p>Show all</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/sahiba.jpeg" alt="trending song">
+                        <p class="card-title">#1 in India</p>
+                        <p class="card-desc">Sahiba - Aditya rikhari</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/sapphire.jpeg" alt="trending song">
+                        <p class="card-title">International</p>
+                        <p class="card-desc">Sapphire - ED sheeran</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/kishore-kumar.jpeg" alt="trending song">
+                        <p class="card-title">Top in your recently played</p>
+                        <p class="card-desc">Pal pal dil ke paas - Kishore Kumar</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/sahiba.jpeg" alt="trending song">
+                        <p class="card-title">Top - India</p>
+                        <p class="card-desc">Sahiba - Aditya rikhari</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/sapphire.jpeg" alt="trending song">
+                        <p class="card-title">Trending Global</p>
+                        <p class="card-desc">Sapphire - ED sheeran</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h2>Top artists</h2>
+                </div>
+                <div class="card-container">
+                    <div class="artist">
+                        <img src="./assets/kishore-kumar.jpeg" class="artist-img">
+                        <p class="card-title">Kishore Kumar</p>
+                    </div>
+                    <div class="artist">
+                        <img src="./assets/Arijit-singh.webp" class="artist-img">
+                        <p class="card-title">Arijit Singh</p>
+                    </div>
+                    <div class="artist">
+                        <img src="./assets/aditya-rikhari.webp" class="artist-img">
+                        <p class="card-title">Aditya rikhari</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h2>Featured Charts</h2>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/top50.jpeg">
+                        <p class="card-title">Top 50</p>
+                        <p class="card-desc">Your daily update of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/top_india.jpeg">
+                        <p class="card-title">Top in India</p>
+                        <p class="card-desc">Top tracks in your Country</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/top_global.jpeg">
+                        <p class="card-title">Top 100 - Global</p>
+                        <p class="card-desc">Trending Worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
         </div>
         <div class="music-palyer">music player</div>
     </div>
